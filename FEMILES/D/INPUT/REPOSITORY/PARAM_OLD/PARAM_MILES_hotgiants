@@ -1,0 +1,59 @@
+m0018V  7450.	2.60  -1.60 267.65   0.07 -1.44  HD002857      F 163  A2 (HB)	    FEW STARS						   A2 (HB) assigned logg												     
+m0647V  7636.	2.93  -0.95 224.15   0.51 -0.35  HD161817      F 497  A2 VI (HB)  							   A2 VI(HB)  V 				   6.94  6.98 NSV 09679 -0.04
+m0392V  8075.	2.80  -1.48 271.00   0.00 -1.39  HD093329      F      A0	  							   A0 HB								 NSV 18519  
+
+m0809V 17760.	2.65  -0.33 260.50   0.00 -0.26  HD206165      F 620  B2 Ib	  							   B2 Ib      V Pulsating Variable Star				   4.69  4.78 V0337 Cep -0.09
+m0102V  8530.	1.35   0.00 188.75   0.00 -0.02  HD017378      F 208  A5Ia 	    assigned [M/H]					   A5Ia       V Pulsating V			      6.23  6.3  V0480Per  -0.07
+
+m0226V  6000.	0.40  -1.62  99.00   0.40 -1.32  HD046703      F 266  F7IVw	  							   F7IVw      V Post-AGB Star			    9.00  9.12 V0382 Aur -0.12
+m0842V  7261.	0.85  -2.52 207.10   0.40 -2.22  BD+39_4926    B8	            EXTREMELY METAL POOR STAR                              B8           Post-AGB Star (proto-PN) 
+m0430V  8542.	1.50  -1.37 223.51   0.00 -1.28  HD105262      F      B9	  							                Post-AGB Star (proto-PN)										
+m0110V  9560.	2.13   0.00  10.00   0.00 -0.02  HD020041      F 217  A0Ia 	    183.75 DECREASED S/N: assigned [M/H]		   A0Ia         Star in Nebula					 NSV 15657  
+
+m0739V  6000.	1.00   0.28  99.00   0.00  0.28  HD187921      F      K0var	  							   K0var        Classical Cepheid (delta Cep)	      6.72  7.79 SV Vul    -1.07
+m0787V  6157.	1.65   0.13  99.00   0.00  0.13  HD201078      F      F7.5II	  							   F7.5II       Classical Cepheid (delta Cep)	      5.57  5.96 DT Cyg    -0.39
+m0658V  6632.	2.30   0.28  99.00   0.00  0.28  HD164975      F      G0Ib/II	  							   G0Ib/II      Classical Cepheid (delta Cep)	      4.29  5.14 W Sgr     -0.85
+m0938V  6242.	1.60   0.17  99.00   0.00  0.17  HD170764      C      G1 Ib	  								        Classical Cepheid (delta Cep type) 							 
+
+m0653V  6799.	2.63  -0.30  99.00   0.20 -0.15  HD164136      F 504  F2 II	    FEW STARS						   F2 II      V Spectroscopic Binary		     13.00 17.8  nu Her    -4.80
+m0252V 32300.	3.00   0.00 201.45   0.00 -0.02  HD057061      F 283  09Ib 	    FEW STARS: assigned [M/H]				   09Ib 	Spectroscopic Binary		   4.32  4.37 tau CMa	-0.05
+
+m0060V  6282.	2.77  -1.38  99.00   0.40 -1.08  HD009356      F      F0	  							   F0	      V of RR Lyr type  		      9.1  10.1  RR Cet    -1.00
+m0107V  6109.	2.60  -2.50 272.45   0.55 -1.86  HD019510      F      F0.5 	  							   F0.5       V of RR Lyr type  		   8.97  9.95 X Ari	-0.98
+m0723V  6269.	2.93  -1.14 246.20   0.53 -0.52  CD-24-15398   F      F0	                                                                      V of RR Lyr type 
+
+m0753V  6440.	1.55  -1.05 269.55   0.25 -0.71  HD190390      F      F1III	  							   F1III      V Semi-regular pulsating  	      6.18  6.55 V1401 Aql -0.37
+m0643V  6666.	0.60  -0.30 149.30   0.35  0.01  HD161796      F      F3Ib 	  							   F3Ib       V Semi-regular pulsating	              6.97  7.12 V0814 Her -0.15
+m0044V  6222.	1.50   0.25  99.00   0.00  0.25  HD006474      F 175  G4Ia	    FEW STARS						    G4Ia      V Semi-regular pulsating 				       7.44  7.74 V0487 Cas -0.30
+
+Probably MS stars:
+=======================================================================================================================================================================
+m0619V  8842.	3.00  -0.25 205.50   0.00 -0.19  HD153882      F      B9p...      							   B9p...     V of alpha2 CVn			   6.26  6.34 V0451 Her -0.08
+m0694V  9540.	3.00   0.12 215.31   0.00  0.05  HD173650      F      B9p...	  							   B9p...     V of alpha2 CVn			   6.41  6.58 V0535 Her -0.17
+m0595V  9333.	3.00   0.00 343.60   0.00 -0.02  HD148112      F      B9p...	  							   B9p...     V of alpha2 CVn type				      4.57 -0.08 ome Her    4.65
+
+m0291V  7010.	3.15   0.34  99.00   0.00  0.34  HD067523      F      F2mp?	  							   F2mp?      V of delta Sct			    2.68  2.87 rho Pup   -0.19
+m0265V  6495.	3.20   0.40 221.00   0.03  0.19  HD061064      F      F6III	  							   F6III      V of delta Sct type		   5.13 -0.01 NSV 03665  5.14
+m0771V  7176.	3.41  -0.30 350.25   0.05 -0.19  HD197461      F      A7IIIp...	  							   A7IIIp...  V of delta Sct type dS		   4.38  4.49 del Del	-0.11
+=======================================================================================================================================================================
+
+m0898V  6527.	0.26  -0.05  99.00   0.00 -0.05  HD020902      C      F5 Ib	    
+m0242V  6268.	0.97   0.10 413.00   0.03  0.05  HD054605      F      F8Ia 	  																      
+m0819V  9071.	1.39  -0.08  10.00   0.00 -0.07  HD207673      F 624  A2Ib 	    216.45 DECREASED S/N: Continuum shape diff  											
+m0200V  9400.	1.43   0.00  10.00   0.00 -0.02  HD039970      F 256  A0Ia 	    354.85 DECREASED S/N: HIGH FLUX IN BLUE assigned [M/H] A0Ia       V 						 NSV 16735
+m0256V  8330.	1.45   0.08 135.75   0.00  0.02  HD059612      F 289  A5Ib 	  							   A5Ib       Double or multiple				 NSV 17491   
+m0284V  6115.	1.70   0.52 202.50   0.06  0.32  HD065228      F      F7/F8II	  																	
+m0371V  9730.	1.97  -0.04 223.95   0.00 -0.05  HD087737      F 335  A0Ib 	  							   A0Ib       V 				      3.46  3.6  NSV 04738 -0.14
+m0896V  6222.	1.97   0.35  99.00   0.00  0.35  BD+61_2575    F 698  F8 Ib	    
+m0645V  9950.	2.20  -0.03 268.90   0.00 -0.04  HD161695      F      A0Ib 	  																	
+m0820V 12200.	2.20   0.00 244.75   0.00 -0.02  HD208501      F 626  B8 Ib	    assigned [M/H] Teff, logg from CAT  		   B8 Ib      V 				      5.79  5.82 NSV 13963 -0.03
+m0974V 10023.	2.25  -0.13  66.15   0.00 -0.11  NGC7789_342   C		    
+m0169V  6900.	2.26   0.10  99.00   0.00  0.10  HD032655      F      F2IIp?	  						           F2IIp?		 
+m0655V 13493.	2.40   0.00 337.65   0.00 -0.02  HD164353      F 507  B5 Ib	    assigned [M/H]					   B5 Ib      V Double system
+m0078V 13800.	2.44   0.00 230.00   0.00 -0.02  HD013267      F 197  B5Ia 	    assigned [M/H] Teff, logg from CAT  		   B5Ia       V Double system					 NSV 15451  
+m0933V  6748.	2.51  -1.19  49.53   0.50 -0.60  M4_LEE-2303   C		    
+m0732V 21860.	2.80   0.00 228.70   0.00 -0.02  HD185859      F 565  B0.5 Iae	  							   B0.5 Iae   Emission-line Star
+m0828V  6270.	2.93  -0.72 164.30   0.49 -0.18  HD210595      F      F7Vwe	  							   F7Vwe      Double or multiple						
+m0641V  6600.	2.95   0.55  10.00  -0.22  0.15  HD161149      F      F5II 	    217.65 DECREASED S/N: LOOKS HOTTER  										 
+
+

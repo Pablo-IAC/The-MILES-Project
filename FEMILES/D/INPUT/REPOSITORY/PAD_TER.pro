@@ -1,0 +1,71 @@
+pro PAD_TER
+kp=204
+kt=2250
+zt=fltarr(kt,6)
+zp=fltarr(kt,6)
+ze=fltarr(kt,6)
+;
+tvlct,[255,0,255,0],[255,255,0,0],[255,0,0,255],1
+set_plot,'ps'
+;xloadct
+erase
+device,filename='PAD_TER.eps',xsize=17,ysize=17,xoffset=2.,yoffset=2.,/color
+!p.multi=[1,1,1]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;x1=0.095
+;x2=0.55
+;y1=2801.
+;y2=4500.
+openr,lun,'Z0198T_ss_10Gyr',/get_lun
+ for i=0,kt-1 do begin
+  readf,lun,a,m,t,g,Lu,Lb,Lv
+  zt(i,0)=m
+  zt(i,1)=10^t
+  zt(i,2)=g
+  zt(i,3)=-2.5*ALOG10(Lu)
+  zt(i,4)=-2.5*ALOG10(Lb)
+  zt(i,5)=-2.5*ALOG10(Lv)
+ endfor
+free_lun,lun
+openr,lun,'Z0190_G_10Gyr',/get_lun
+ for i=0,kp-1 do begin
+  readf,lun,a,m,t,g,Lu,Lb,Lv
+  zp(i,0)=m
+  zp(i,1)=10^t
+  zp(i,2)=g
+  zp(i,3)=-2.5*ALOG10(Lu)
+  zp(i,4)=-2.5*ALOG10(Lb)
+  zp(i,5)=-2.5*ALOG10(Lv)
+ endfor
+free_lun,lun
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ytit='V'
+y2=-2.5
+y1=17.
+xtit='B-V'
+x1=0.
+x2=2.5
+plot,(zt(*,4)-zt(*,5)),zt(*,5),PSYM=5,SYMSIZE=0.3,color=0,xrange=[x1,x2],xstyle=1,yrange=[y1,y2],ystyle=1,xtitle=xtit,ytitle=ytit,thick=1,charsize=1.,/NOERASE
+oplot,(zp(*,4)-zp(*,5)),zp(*,5),PSYM=4,SYMSIZE=0.3,color=2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+xv=fltarr(1)
+yv=fltarr(1)
+xv(0)=0.9
+yv(0)=5.
+oplot,xv,yv,PSYM=5,SYMSIZE=0.4,color=0
+xyouts,xv+0.03,yv,'Pietrinferni et al. (2004) (Z=0.0198, 2.0 Gyr)',color=0
+oplot,xv,yv-1.,PSYM=4,SYMSIZE=0.4,color=2
+xyouts,xv+0.03,yv-1.,'Girardi et al. (2000) (Z=0.019, 2.0 Gyr)',color=2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+y2=-0.5
+y1=6.
+x2=2500.
+x1=7000.
+;plot,zt(*,1),zt(*,2),PSYM=5,SYMSIZE=0.1,color=0,xrange=[x1,x2],xstyle=1,yrange=[y1,y2],ystyle=1,xtitle=xtit,ytitle=ytit,thick=1,charsize=1.,/NOERASE
+;oplot,zp(*,1),zp(*,2),PSYM=4,SYMSIZE=0.1,color=2
+;
+device,/close
+loadct,0
+spawn,'gv PAD_TER.eps &'
+end

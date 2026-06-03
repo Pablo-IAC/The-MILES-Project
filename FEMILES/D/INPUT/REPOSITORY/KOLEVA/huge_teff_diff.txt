@@ -1,0 +1,87 @@
+2012/08/27
+
+Hi Mina,
+
+I see that the difference in temperature among the following stars in common with MILES is huge (look at the first column):
+
+                                                                                                                    Pastel values                    Prugniel+2011
+hd187111 -505. 4259.  0.58  -1.83  4764.  1.93  -1.44 ng323V MIL !!!    4172 - 4450                     4455
+Only FeI (4945) is deeper in the moddel which woud produce cooler temperature (in odds), Hgamma and CaI4227 are well fitted but their wings not 
+
+hd026297 -511.  4316.  1.06  -1.67  4827.  2.01  -1.51 ng101V MIL !!!   4267-4767                        4479
+FeI (4945) and CaI4227 are deeper in the moddel which woud produce cooler temperature (in odds), Hgamma is well fitted but its wings not (wrong sigma?)
+
+hd204041 -517.  8100.  4.03  -0.98  8617.  4.49  -0.61 ng349V MIL       8100 (one measurement)   8737
+A star, FeI (4945) and CaI4227 are deeper in the moddel
+
+hd028978 542.  9164.  3.70   0.14  8622.  3.73  -0.75 ng105V MIL           9164 (one measurement)   8864
+A star, good fit for all temperature indicators
+
+hd193281 -543.  8080.  3.58  -1.00  8623.  4.30  -0.68 ng331V MIL        8080 (one measurement)   8597
+Only FeI (4945) is deeper in the moddel
+
+hd118055 -628.  4089.  0.45  -1.92  4717.  1.74  -1.57 ng225V MIL !!!   4073 - 4400                       4384
+FeI (4945) and CaI4227 are deeper in the moddel
+
+hd155763 -638. 13397.  4.24  -0.95 14035.  3.57   0.22 ng271V MIL       12900 - 13420                 12500
+B star, H gamma ok
+
+hd097633 719.  9509.  3.45   0.28  8790.  3.59  -0.64 ng196V MIL            7754 - 9509                      9201
+all 3 lines which may indicate the temp of an A star are well fitted
+
+hd000886 881. 21581.  3.86   0.06 20700.  3.81  -0.02 ng054V MIL         20160 - 22670                 20454
+HeI 4471 / H gamma - OK
+
+hd201601 -917.  7657.  3.92   0.07  8574.  4.47   0.68 ng347V MIL !!!        6811 - 8129                     8790
+H gamma a bit deeper in the model, may lead to overestimation of the temperature
+
+hd176232 -958.  7701.  4.09   0.06  8659.  4.47   0.55 ng315V MIL !!!        7099 - 8129                     8743
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+
+hd128801 1439. 10250.  3.40  -1.20  8811.  2.55  -1.69 ng240V MIL         10250-10300                 10200
+H gamma HeI 4471 - OK
+
+hd143459 -1456.  8842.  3.55  -1.26 10298.  3.85  -0.47 ng261V MIL !!!   8842 (one measurement) 10498
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+
+hd112413 -1714.  9944.  3.85   0.31 11658.  3.78   0.68 ng218V MIL !!!     9164 - 12000                  12303
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+
+hd087737 -1792.  9730.  1.97  -0.04 11522.  2.11   0.19 ng185V MIL !!!    8000 - 10286                  10958
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+
+hd176437 -2433. 10282.  3.50   0.20 12715.  3.68   0.17 ng316V MIL !!!   10000 - 10080                 11226
+Fe I region is not well fitted, but the line its self is ok, CaI is a bit weaker in the model which may lead to overestimating of the temp
+
+hd164353 -4081. 13493.  2.40   0.00 17574.  2.96   0.15 ng284V MIL !!!    15420 (one measurement) 15600
+H gamma/ HeI 4471 - ok
+
+
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+hd149382 8465. 36000.  5.50  -1.30 27535.  3.92  -0.55 ng270V MIL !!!    36000 (one measurement) 35500
+the fit is poor. Should take MILES parameters.
+
+
+The first three columns belong to MILES, whereas columns 4 to 6 are your
+numbers. I performed a set of alternative fits to convert the temperatures but
+have excluded these stars for this purpose. I will let you know about the
+results. I am not surprised to have such discrepancies for the very hot/cool
+stars. However I quoted those for which the discrepancy is certainly very high
+(!!! in the last column).
+
+Can you please check them!.
+cheers,
+av
+
+'hd187111','hd026297','hd204041','hd028978','hd193281','hd155763','hd097633','hd201601','hd176232','hd128801','hd143459','hd112413','hd087737','hd176437','hd164353','hd149382'

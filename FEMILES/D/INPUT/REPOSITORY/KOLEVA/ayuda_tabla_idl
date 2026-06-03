@@ -1,0 +1,13 @@
+t=mrdfits('h_stis_ngsl_hd031421_v2.fits',0)
+t=mrdfits('h_stis_ngsl_hd031421_v2.fits',1)
+help, t,/st
+plot, t.wavelength, t.flux
+t=mrdfits('h_stis_ngsl_bd+413931_v2.fits',1)
+ploterror, t.wavelength, t.flux, t.staterr
+t=mrdfits('h_stis_ngsl_bd+413931_v2.fits',2) 
+t=mrdfits('h_stis_ngsl_bd+413931_v2.fits',1)
+print, t.wavelength-shift(t.wavelength,1)
+print, t[0:10].wavelength
+sspec = gauss_smooth(t.flux,5) 
+plot, t.wavelength, t.flux/sspec
+plot, t.wavelength, t.flux/sspec, yrange=[0,2], xrange=[1680.,10200.], xstyle=1

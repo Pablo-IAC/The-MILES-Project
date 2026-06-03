@@ -1,0 +1,131 @@
+Hi Alex,
+
+I tried to summerize an answer the questions we had today as well as a few things which also came to my mind.
+
+First I see that there was a list with stars from you with huge difference in
+temperature between MILES (Cenarro) and my measurements on NGSL. We probably
+went star by star and discussed it with you. I attach the list
+(huge_teff_diff.txt ) and a file with the fits (outliers.pdf), where we look for
+the possible problems and why the derived parameters will be so different.
+Looking at the plot of the fits it is obvious that only HD149382 has bad fit. 
+The ascii file contains the name of the star, probably the s/n, miles parameters
+(temp, met, grav) my temp, the range of temperatures in Pastel DB and the
+parameters from Prugniel+. Each of the star is discussed and the comments on it
+are after !!!. There are few stars for which we thought we should obviously
+consider the MILES values, but there were also some surprises or at least no
+visible signatures to chose one over the another. However, as you say for these
+stars we will take the MILES parameters anyway.
+
+On 04 Oct 2013, at 12:34, Mina Koleva wrote:
+
+> Here are a summery of what we discussed:
+>
+> - comparison of NGSL stars in common with Miles with the param. from  Prugniel + 2011 (Mina)
+
+I plotted the diff in temperatures between Miles (Prugniel+) and NGSL (published values). For dwarfs I do not see systematics with the metallicity, but for dwarfs I do. There are some stars which have more than 350 K difference in particular for hd173819 Prugniel gives 
+Teff 4278  logg 0.25  [Fe/H] -0.86  
+and I find  3650  0.51  -0.11  
+If I look at the fit of this star I see that it is not satisfactory. A plot with it is also attached.
+The others have temperatures more than 7000 K, so it difference is not so big in relative sence. You can find attached the outliers file: outliers_prugniel_koleva_teff.txt. 
+
+
+> - ngsl stars convert the param in Miles systems (Cenarrro param) (Mina)
+
+For the correction I see that I have a program which does it - bias for the OBA stars and correcting according to linear fit coeff. I attach a file with the corrected values: PARAM_NGSL_21_08_2012.txt_new 
+
+
+> - see the Av of NGSL are corrected for it. (Mina)
+
+The extinction corrected, shifted to 0 restframe txt files with the spectra are here
+https://dl.dropboxusercontent.com/u/51433391/ext_corr.tgz
+
+
+> - if we use S/N of the green range, we will bias the models, so just use a constant weighting, maybe remove stars with strange fits or binaries (Vazdekis)
+> - we have strange FWHM variation in the blue part, but probably because of the usage of theoretical libraries. So we will assume that it is constant in FWHM, but check what is the number (Mina) 
+
+
+I checked on  a few stars and it seems if I take the correct wl range the FWHM is 2.5 A. It will need to be rechecked, but for the moment we can work with this value.
+
+Have a nice weekend!
+Mina
+
+
+huge_teff_diff.txt
+
+2012/08/27
+
+Hi Mina,
+
+I see that the difference in temperature among the following stars in common with MILES is huge (look at the first column):
+
+                                                                                                                    Pastel values                    Prugniel+2011
+hd187111 -505. 4259.  0.58  -1.83  4764.  1.93  -1.44 ng323V MIL !!!    4172 - 4450                     4455
+Only FeI (4945) is deeper in the moddel which woud produce cooler temperature (in odds), Hgamma and CaI4227 are well fitted but their wings not 
+hd026297 -511.  4316.  1.06  -1.67  4827.  2.01  -1.51 ng101V MIL !!!   4267-4767                        4479
+FeI (4945) and CaI4227 are deeper in the moddel which woud produce cooler temperature (in odds), Hgamma is well fitted but its wings not (wrong sigma?)
+hd204041 -517.  8100.  4.03  -0.98  8617.  4.49  -0.61 ng349V MIL       8100 (one measurement)   8737
+A star, FeI (4945) and CaI4227 are deeper in the moddel
+hd028978 542.  9164.  3.70   0.14  8622.  3.73  -0.75 ng105V MIL           9164 (one measurement)   8864
+A star, good fit for all temperature indicators
+hd193281 -543.  8080.  3.58  -1.00  8623.  4.30  -0.68 ng331V MIL        8080 (one measurement)   8597
+Only FeI (4945) is deeper in the moddel
+hd118055 -628.  4089.  0.45  -1.92  4717.  1.74  -1.57 ng225V MIL !!!   4073 - 4400                       4384
+FeI (4945) and CaI4227 are deeper in the moddel
+hd155763 -638. 13397.  4.24  -0.95 14035.  3.57   0.22 ng271V MIL       12900 - 13420                 12500
+B star, H gamma ok
+hd097633 719.  9509.  3.45   0.28  8790.  3.59  -0.64 ng196V MIL            7754 - 9509                      9201
+all 3 lines which may indicate the temp of an A star are well fitted
+hd000886 881. 21581.  3.86   0.06 20700.  3.81  -0.02 ng054V MIL         20160 - 22670                 20454
+HeI 4471 / H gamma - OK
+hd201601 -917.  7657.  3.92   0.07  8574.  4.47   0.68 ng347V MIL !!!        6811 - 8129                     8790
+H gamma a bit deeper in the model, may lead to overestimation of the temperature
+hd176232 -958.  7701.  4.09   0.06  8659.  4.47   0.55 ng315V MIL !!!        7099 - 8129                     8743
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+hd128801 1439. 10250.  3.40  -1.20  8811.  2.55  -1.69 ng240V MIL         10250-10300                 10200
+H gamma HeI 4471 - OK
+hd143459 -1456.  8842.  3.55  -1.26 10298.  3.85  -0.47 ng261V MIL !!!   8842 (one measurement) 10498
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+hd112413 -1714.  9944.  3.85   0.31 11658.  3.78   0.68 ng218V MIL !!!     9164 - 12000                  12303
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+hd087737 -1792.  9730.  1.97  -0.04 11522.  2.11   0.19 ng185V MIL !!!    8000 - 10286                  10958
+all 3 lines (FeI 4045, CaI 4227, Hgamma) OK
+hd176437 -2433. 10282.  3.50   0.20 12715.  3.68   0.17 ng316V MIL !!!   10000 - 10080                 11226
+Fe I region is not well fitted, but the line its self is ok, CaI is a bit weaker in the model which may lead to overestimating of the temp
+hd164353 -4081. 13493.  2.40   0.00 17574.  2.96   0.15 ng284V MIL !!!    15420 (one measurement) 15600
+H gamma/ HeI 4471 - ok
+hd149382 8465. 36000.  5.50  -1.30 27535.  3.92  -0.55 ng270V MIL !!!    36000 (one measurement) 35500
+the fit is poor. Should take MILES parameters.
+
+
+The first three columns belong to MILES, whereas columns 4 to 6 are your numbers.
+I performed a set of alternative fits to convert the temperatures but have excluded these stars for this purpose. I will let you know about the results. I am not surprised to have such discrepancies for the very hot/cool stars. However I quoted those for which the discrepancy is certainly very high (!!! in the last column).
+Can you please check them!.
+cheers,
+av
+
+'hd187111','hd026297','hd204041','hd028978','hd193281','hd155763','hd097633','hd201601','hd176232','hd128801','hd143459','hd112413','hd087737','hd176437','hd164353','hd149382'
+
+
+
+
+
+
+outliers_prugniel_koleva_teff.txt
+
+# Miles n_Miles Teff  e_Teff logg e_logg [Fe/H] e_[Fe/H] cz  sig Refs Name     SB Teff  e_Teff log(g) e_log(g) [Fe/H] e_[Fe/H] cz  sig S/Nu S/Nb S/Ni AV    Ref SimbadName _RA       _DE       deltaTeff
+  608   ""      35500 ""     5.7  ""     -1.3   ""       ""  ""  2,9  hd149382 "" 27535 1985   3.92   0.76     -0.55  0.16     -36 513 1491 500  218  0.44  ""  HD149382   248.59722 -4.01445  7965     
+  701   ""      18073 1942   3.41 0.44   0.29   0.21     -43 275 0    hd174959 "" 14321 348    4.05   0.48     0.18   0.17     3   171 1054 636  485  0.27  ""  HD174959   282.90215 36.53909  3752     
+  252   *       34303 1828   3.46 0.11   0.1    0.13     36  72  0    hd057061 "" 32514 949    3.37   0.11     0.18   0.07     9   202 2195 601  409  0.63  ""  HD057061   109.67703 -24.95437 1789     
+  519   ""      10200 ""     3.5  ""     -1.4   ""       ""  ""  2,27 hd128801 "" 8811  283    2.55   0.16     -1.69  0.11     16  160 492  424  269  -0.09 ""  HD128801   219.70038 7.91121   1389     
+  722   ""      10325 ""     4.17 ""     -1.24  ""       ""  ""  1    hd183324 "" 8939  304    4.53   0.23     -1.3   0.5      13  297 764  550  474  -0.26 ""  HD183324   292.25412 1.95045   1386     
+  251   ""      33215 2674   3.28 0.16   -0.03  0.2      10  115 0    hd057060 "" 32508 1928   3.39   0.26     0.24   0.14     58  229 2656 577  399  0.72  ""  HD057060   109.66825 -24.5587  707      
+  456   ""      12303 487    4.09 0.22   0.9    0.16     9   66  0    hd112413 "" 11658 471    3.78   1.19     0.68   0.17     -1  133 1036 541  452  -0.08 ""  HD112413   194.00694 38.31838  645      
+  697   *       4278  123    0.25 0.21   -0.86  0.15     -27 57  0    hd173819 "" 3650  102    0.51   1.38     -0.11  0.88     5   152 17   212  672  -0.79 ""  HD173819   281.87062 -5.70515  628      
+  737   ""      21004 1827   3.14 0.16   0.05   0.12     0   52  0    hd187879 "" 20420 1274   3.18   0.28     -0.02  0.14     -12 174 688  608  517  0.4   ""  HD187879   297.65553 40.59976  584      
+  453   ""      8080  ""     3.88 ""     -1.5   ""       ""  ""  16   hd111786 "" 7549  45     4.17   0.21     -1.06  0.21     3   166 774  600  564  0.09  ""  HD111786   192.99123 -26.73827 531      
+  317   ""      8900  ""     3.38 ""     -1.32  ""       ""  ""  1,4  hd074721 "" 8475  96     3.35   0.25     -1.47  0.11     1   121 420  417  295  0.05  ""  HD074721   131.49692 13.2635   425      
+  403   ""      9201  277    3.68 0.24   -0.16  0.13     11  44  0    hd097633 "" 8790  351    3.59   0.89     -0.64  0.18     -11 119 805  582  481  -0.04 ""  HD097633   168.56002 15.42957  411      
+  18    ""      8000  ""     2.7  ""     -1.5   ""       ""  ""  1,4  hd002857 "" 7607  12     3.78   0.09     -1.35  0.06     3   118 127  165  58   -0.12 ""  HD002857   7.97413   -5.26191  393      
+  668   ""      9000  ""     2.36 ""     -1.5   ""       ""  ""  4,27 hd167105 "" 8637  143    3.25   0.24     -1.52  0.1      15  109 325  356  235  0.07  ""  HD167105   272.77629 50.79234  363      
+
+
