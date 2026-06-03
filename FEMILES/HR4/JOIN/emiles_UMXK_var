@@ -1,0 +1,12 @@
+2.76d0 #output resolution
+0 #flag_res [0=fwhm, 1=sigma]
+0 #flag_cat is segment 4 CAT [yes=1, no=0]
+0.9d0 #output dispersion
+"../O_v/e/Eku" #output file --> create dir if it doesn't exist
+6 #number of input spectral bits
+"../O_v/u/Uku"  32 2.76d0 0.900d0    0.0d0    0.0d0 3541.4d0 3566.6d0 1 1.0d0 #spectrum nskip res_in disp_in l1 l2 l3 l4 0/1[ref/tbs] cfact
+"../O_v/m/Mku"	32 2.76d0 0.900d0 3541.4d0 3566.6d0 7016.3d0 7064.0d0 0 1.0d0 #7017.0000 7064.0000 M  CaH2 (Spiniello+14), X,M,U SSP spectra naturally match at 7125A
+"../O_v/m/Mku"	32 2.76d0 0.900d0 7016.3d0 7064.0d0 7360.1d0 7385.3d0 1 1.0d0
+"../O_v/x/Xku"	32 2.76d0 0.900d0 7360.1d0 7385.3d0 8890.1d0 8930.6d0 0 1.0d0
+"../O_v/x/Xku"	32 2.76d0 2.000d0 8890.1d0 8930.6d0 9500.3d0 9539.0d0 1 1.0d0 # 4.19=((60.*2.35)/(3.e5))*8910.35  4.38=((60.*2.35)/(3.e5))*9325.25  4.47=((60.*2.35)/(3.e5))*9519.65
+"../O_v/k/Kku"	32 4.47d0 2.000d0 9500.3d0 9539.0d0    0.0d0    0.0d0 0 1.0d0 # 3.95=((60.*2.35)/(3.e5))*8402.5  4.20=((60.*2.35)/(3.e5))*8925. 4.68=((60.*2.35)/(3.e5))*9950.

@@ -1,0 +1,1 @@
+Before the first commit and push, I modified these files so my MacBook could compile and run the program. These changes shouldn't affect the final results.

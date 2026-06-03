@@ -1,0 +1,11 @@
+Codigo para el enganche de los espectros emiles. 
+
+Seleccionar las rutas correctas: "../OUT..." 
+
+Limpiar los .DS_Store si estás en Mac: rm C/.DS_Store; rm K/.DS_Store; rm M/.DS_Store; rm U/.DS_Store; rm X/.DS_Store
+
+Compilar: gfortran join_v2.2.f90 -o join_v2.2.x
+Si me da error en Mac, probar: export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Executar: ./join_v2.2.x < emiles_UMXK
+

@@ -1,0 +1,61 @@
+BITPIX  =                    8  /  8-bit ASCII characters                       
+NAXIS   =                    1  /  Number of Image Dimensions                   
+NAXIS1  =                21426  /  Length of axis                               
+ORIGIN  = 'NOAO-IRAF: WTEXTIMAGE'  /
+IRAF-MAX=                   0.  /  Max image pixel (out of date)                
+IRAF-MIN=                   0.  /  Min image pixel (out of date)                
+IRAF-B/P=                   32  /  Image bits per pixel                         
+IRAFTYPE= 'REAL FLOATING     '  /  Image datatype                              
+OBJECT  = 'A_7150.-50000.'     /                                              
+FILENAME= 'K.FITS          '  /  IRAF filename                               
+FORMAT  = '5G14.7            '  /  Text line format                            
+ORIGIN  = 'NOAO-IRAF FITS Image Kernel October 2013' / FITS file originator        
+EXTEND  =                    F / File may contain extensions                    
+DATE    = '30/11/23'           / Date FITS file was generated                   
+IRAF-TLM= '12:00:00 (30/11/23)' / Time of last modification                   
+COMMENT   ************************** REDUCEME HEADER ***************************
+HISTORY   From genimage                                                        
+CRVAL1  =               7150.0 / central wavelength of first pixel              
+CDELT1  =                  2.0 / linear dispersion (Angstrom/pixel)             
+FITSFI  = '[none]  '           / Object name                                    
+AIRMASS =              0.00000 / Airmass                                        
+TIMEXPO =                  0.0 / Timexpos                                       
+WCSDIM  =                    1                                                  
+CTYPE1  = 'LINEAR  '                                                            
+CD1_1   =                 2.00                                                  
+LTM1_1  =                   1.                                                  
+WAT0_001= 'system=equispec'                                                     
+APNUM1  = '1 0 1.00 1.00 1.00 1.00'                                             
+DC-FLAG =                    0                                                  
+CRPIX1  =                   1.                                                  
+WAT1_001= 'wtype=linear label=Wavelength units=angstroms'                       
+END                                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

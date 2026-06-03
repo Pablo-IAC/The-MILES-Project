@@ -1,0 +1,56 @@
+Esto es lo que discutimos ayer y los archivos que tengo cambiados:
+
+
+aaa.f \u2014> Añadimos la opción de que se pueda introducir \u2018i\u2019 en terminal si se quiere escoger IGMF. Ver líneas 238 y 273.
+
+	aaa.f llama a a_alpha.f
+
+a_alpha.f \u2014> Añadimos un COMMON para la masa y xi.
+		Se hace la llamada al código python gal_IMF. 
+		Se lee el archivo creado y se almacenan los resultados en los arrays definidos. Ver línea 538.
+
+	a_alpha.f llama a STU_alpha.f
+
+STU_alpha.f \u2014> Añadimos un COMMON para la masa y xi.
+
+	STU_alpha.f llama a limf.f
+
+limf.f \u2014> Añadimos un COMMON para la masa y xi.
+		Si se ha elegido la opción \u2018i\u2019 en la terminal se utiliza hunt.f y polint.f para hacer la interpolación de la masa y obtener el xi deseado. Ver línea 115.
+
+No recuerdo en qué fichero pero también hay que cambiar el nombre de salida de los archivos. Cuando se ha elegido la opción \u2018i\u2019 debería poner: 
+"Egal-IMF\u2026._valorSFR"
+				
+También tengo apuntado que hay que mirar los límites inferior y superior de la lista de masas que crea gal-IMF.
+
+Para cualquier cosa me escribes!
+
+_____________________________________________________________________________
+
+
+El paquete llamado galIMF-master, con el código de Yan y Tereza te lo puedes descargar aqui: https://github.com/Azeret/galIMF
+
+Yo he hecho mis pruebas con: example_galaxy_wide_IMF.py
+
+Para que al ejecutarlo no escriba por pantalla ni saque imágenes sustituye este archivo por el que adjunto, que tiene comentadas algunas líneas.
+
+Si colocas la carpeta de galIMF-master dentro de HR4, puedes llamar desde Fortran a dicho código añade lo siguiente (hay dos opciones):
+
+call system('python ./galIMF-master/example_galaxy_wide_IMF.py SFR M_over_H 0\u2019 )
+
+Ó
+
+call system('python ./galIMF-master/example_galaxy_wide_IMF.py SFR M_over_H 1 resol' )
+
+Donde:
+- SFR y M_over_H deben ser lo valores tomados de dat_MATZ_HR
+- El \u20180\u2019 o \u20181' es una opción que te ofrece el código de IGMF para calcular OSGIMF:
+ (OSGIMF gives the stellar masses generated in a 10 Myr epoch with constant inputted SFR. This may take time for high SFR input.) 
+Si eliges 1 también tienes que decirle la resolución deseada (resol).
+
+Una vez ejecutado se habrá creado un archivo llamado Galaxy_wide_IMF.txt con las masas y xi.
+
+
+
+
+

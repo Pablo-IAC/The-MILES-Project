@@ -1,0 +1,61 @@
+BITPIX  =                    8  /  8-bit ASCII characters                       
+NAXIS   =                    1  /  Number of Image Dimensions                   
+NAXIS1  =                 1077  /  Length of axis                               
+ORIGIN  = 'NOAO-IRAF: WTEXTIMAGE'  /
+IRAF-B/P=                   32  /  Image bits per pixel                         
+IRAFTYPE= 'REAL FLOATING     '  /  Image datatype                              
+OBJECT  = 'GALAXY_4795-5465  '  /                                              
+FILENAME= 'GALAXY_RED        '  /  IRAF filename                               
+FORMAT  = '5G14.7            '  /  Text line format                            
+IRAF-MAX=                INDEF  /  DATA MAX                                     
+IRAF-MIN=                INDEF  /  DATA MIN                                     
+IRAF-BPX=                   32  /  DATA BITS/PIXEL                              
+IRAFTYPE= 'REAL    '            /  PIXEL TYPE                                   
+OBSERVAT= 'BARSA             '  /  observatory                                  
+OBSERVER= 'Alexandre Vazdekis'  /  observers                                    
+WCSDIM  =                    1                                                  
+CTYPE1  = 'LINEAR  '                                                            
+CDELT1  =    0.622807000000003                                                  
+CD1_1   =    0.622807000000003                                                  
+LTM1_1  =                   1.                                                  
+WAT0_001= 'system=linear                                                       '
+WAT1_001= 'wtype=linear label=Wavelength units=Angstroms                       '
+CRVAL1  =                4794.947368                                                  
+CRPIX1  =                   1.                                                  
+APNUM   =                    1                                                  
+BEAM-NUM=                    1                                                  
+DC-FLAG =                    0                                                  
+EX-FLAG =                    0                                                  
+CA-FLAG =                    0                                                  
+HISTORY New copy of GALAXY_RED.imh                                             
+ 
+END                                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

@@ -1,0 +1,356 @@
+X0422V    3100  0.0  -0.5  1.0                   C* # Gonneau+2017A&A601..141, IRAS 09484-6242, very low TiO/NaD, exclude it!
+X0423V    2947  0.56 -0.59 100.0               Mira # XSL
+X0451V    3010  0.41  0.22 100.0               Mira # XSL, very high TiO2
+X0483V    3023  0.66 -0.52 100.0               Mira # XSL
+X0490V    3057  0.37 -0.25 100.0               Mira # XSL
+X0068V    3063  0.57 -0.36 100.0               Mira # XSL 
+X0487V    3080  0.58 -0.35 100.0               Mira # XSL
+X0473V    3089  0.30 -0.38 100.0               Mira # XSL 
+X0484V    3113  1.35 -0.23 100.0               Mira # XSL 
+X0070V    3115  0.77 -0.51 100.0               Mira # XSL
+X0071V    3116  0.21 -0.36 100.0               Mira # XSL, very high TiO2
+X0452V    3187  0.83 -0.23 100.0               Mira # XSL
+X0007V    3201  0.64 -0.44 100.0               Mira # XSL 
+X0479V    3213  0.81 -0.50 100.0               Mira # XSL
+X0485V    3224  0.50 -0.21 100.0               AGB* # XSL
+X0486V    3228  0.31  0.05 100.0                 C* # XSL
+X0416V    3239  5.00 -0.26 100.0            HighPM* # XSL, better XSL for TiO2 
+X0459V    3276  0.36 -0.39 100.0       LongPeriodV* # XSL
+X0480V    3292  0.76 -0.20 100.0               Mira # XSL
+X0470V    3293  0.46 -0.42 100.0       LongPeriodV* # XSL
+X0474V    3298  0.12 -0.16 100.0               AGB* # XSL
+X0468V    3305  0.28 -0.07 100.0       LongPeriodV* # XSL
+X0458V    3311 -0.05 -0.22 100.0       LongPeriodV* # XSL
+X0445V    3315  0.58 -0.40 100.0               Mira # XSL
+X0462V    3319  0.24 -0.17 100.0       LongPeriodV* # XSL
+X0413V    3325  4.90 -0.36 100.0                 ** # XSL, Double or Multiple Star, HIP 84123
+X0478V    3338  1.27 -0.57 100.0               Mira # XSL
+X0418V    3352  1.75 -0.64 100.0       LongPeriodV* # XSL
+X0489V    3353  0.69 -0.14 100.0               Mira # XSL
+X0035V    3360  1.05 -0.45 100.0              RedSG # XSL
+X0488V    3368  1.04 -0.37 100.0               Mira # XSL
+X0573V    3368  0.23 -0.45 100.0               AGB* # XSL
+X0575V    3384  0.29 -0.24 100.0               AGB* # XSL
+X0084V    3321  4.70 -0.07 100.0            HighPM* # average pars from KUZNETSOV2019ApJ...878..134K
+X0442V    3396  1.03 -0.52 100.0              RedSG # XSL
+X0439V    3399  0.65 -0.58 100.0              RedSG # XSL
+X0455V    3413 -0.02 -0.41 100.0       LongPeriodV* # XSL
+X0482V    3430  1.27 -0.61 100.0               Mira # XSL
+X0444V    3438  1.16 -0.47 100.0               Mira # XSL
+X0008V    3453  0.67 -0.12 100.0               AGB* # XSL
+X0432V    3469  0.59 -0.82 100.0              RedSG # XSL
+X0427V    3489  4.85 -0.57 100.0          Low-Mass* # XSL, TiO2 and NaD OK, LHS 320
+X0477V    3491  0.23 -0.54 100.0               Mira # XSL
+X0412V    3499  4.80  0.00 100.0            HighPM* # XSL, TiO2 OK 
+X0253V    3521  4.79 -0.25 100.0            HighPM* # XSL, higher Teff would not match the TiOs well
+X0419V    3522  0.09  0.25 100.0       LongPeriodV* # XSL
+X0447V    3533  1.18 -0.50 100.0               Mira # XSL
+X0446V    3546  1.08 -0.55 100.0               Mira # XSL
+X0417V    3553  0.31 -0.09  10.0       LongPeriodV* # scatter among XSL's, low TiO, DECR. S/N  LP Variable
+X0476V    3558  0.21 -0.35 100.0               AGB* # XSL
+X0475V    3562 -0.03 -0.30 100.0              RedSG # XSL
+X0431V    3574  0.34 -0.05 100.0              RedSG # XSL
+X0438V    3592  0.69 -0.60 100.0              RedSG # XSL, seems better than Jonsson, Red Supergiant
+X0583V    3593  0.14 -0.44 100.0               Star # XSL
+X0443V    3607  0.88 -0.98 100.0              RedSG # XSL
+X0433V    3637  0.68 -0.91 100.0              RedSG # XSL
+X0460V    3641  1.05 -0.61 100.0               Mira # XSL
+X0587V    3675  0.87 -0.17 100.0              Blend # XSL, Composite Object, Blend
+X0465V    3677  0.79 -0.46 100.0       LongPeriodV* # XSL
+X0379V    3692  1.34 -0.37 100.0  LongPeriodV*_Cand # XSL, HD212516, ng358V  3626.  1.54 -0.24
+X0133V    3698  4.81 -0.59 100.0            HighPM* # XSL, Maldonado Teff a bit too low for TiO's 
+X0410V    3706  4.77 -0.49 100.0            HighPM* # XSL, same as one estimate of KUZNETSOV+2019
+X0453V    3713  1.06 -0.99 100.0       LongPeriodV* # XSL
+X0194V    3721  1.19 -0.31 100.0       LongPeriodV* # XSL, TiO OK
+X0048V    3728  0.85 -0.74 100.0       LongPeriodV* # XSL
+X0466V    3752  0.67 -0.28 100.0          Variable* # XSL
+X0467V    3752  0.95 -0.37 100.0       LongPeriodV* # XSL
+X0440V    3777  0.80 -0.71 100.0              RedSG # XSL, 2MASS J00593499-7204066
+X0049V    3831  0.30 -1.30 100.0               RGB* # Jonsson 2020AJ....160..120J
+X0063V    3813  1.59 -0.44 100.0               RGB* # XSL, TiO good
+X0062V    3817  1.56 -0.20 100.0               RGB* # XSL, TiO good
+X0437V    3825  0.34 -0.05 100.0              RedSG # XSL
+X0053V    3827  1.09 -0.51 100.0               Star # XSL
+X0424V    3827  0.68 -0.52 100.0       LongPeriodV* # XSL
+X0043V    3836  0.24  0.13 100.0              RedSG # XSL
+X0435V    3841 -0.02 -0.02 100.0              RedSG # XSL
+X0426V    3847  0.99 -0.58 100.0       LongPeriodV* # XSL
+X0464V    3847  1.22 -0.64 100.0       LongPeriodV* # XSL
+X0208V    3848  1.67 -0.02 100.0               Star # XSL
+X0025V    3871  1.51 -0.26 100.0               Star # XSL 
+X0420V    3885  0.29  0.05 100.0               Star # XSL
+X0044V    3900  0.55  0.10 100.0              RedSG # XSL
+X0463V    3936  0.24 -0.43 100.0               Mira # XSL
+X0059V    3938  1.15 -0.98 100.0               RGB* # XSL
+X0202V    3945  1.53 -0.52 100.0               Star # XSL
+X0434V    3950  0.27 -0.05 100.0              RedSG # XSL
+X0060V    3953  1.06 -1.03 100.0               RGB* # XSL 
+X0052V    3977  0.09 -0.16 100.0              RedSG # XSL
+X0454V    3984  0.43 -0.82 100.0                 C* # XSL (TiO: XSL seems better than Gonneau+2017)
+X0441V    3997  0.21 -0.22 100.0              RedSG # XSL
+X0179V    4023  2.07  0.04 100.0               Star # XSL
+X0215V    4039  1.59 -0.58 100.0               Star # XSL
+X0196V    4047  1.78  0.00  10.0                SB* # XSL, Spec. Bin. (DECREASED S/N), (TiO: better XSL)
+X0436V    4052  0.17 -0.16 100.0              RedSG # XSL, several MaNGA estimates
+X0245V    4066  2.30  0.14 100.0            HighPM* # XSL
+X0471V    4069  0.20 -0.90  10.0                 C* # XSL, TiO2 a bit too high, DECREASED S/N  
+X0457V    3649  0.00 -0.50  10.0                 C* # Gonneau+2017A&A601..141, TiO2 a bit too low, DECREASED S/N
+X0177V    4082  1.63 -0.31 100.0                 ** # XSL
+X0456V    3800  0.00 -0.50 100.0                 C* # Gonneau+2017A&A601..141
+X0472V    4089  0.39 -0.98  10.0                 C* # XSL, TiO2 a bit too high, DECREASED S/N  
+X0047V    4097  0.32 -1.03 100.0               Mira # XSL
+X0190V    4098  1.19 -0.01 100.0               Star # XSL
+X0092V    4109  2.29  0.03 100.0               Star # XSL
+X0449V    4118  1.36 -0.61 100.0               RGB* # XSL
+X0158V    4130  2.27  0.06 100.0               Star # XSL
+X0067V    4169  1.40 -0.81 100.0               RGB* # Jonsson 2020AJ....160..120J (m0944V, AE: 4071 1.12 -0.87)
+X0450V    4157  1.29 -0.66 100.0               RGB* # XSL
+X0611V    4084  0.74 -1.15 100.0               RGB* # SB (m0926V, AE: 4090 0.79 -1.16) 
+X0612V    4296  1.40 -0.77 100.0               RGB* # SB (m0964V, AE: 4341 1.76 -0.88)
+X0277V    4172  0.39 -1.53 100.0            RVTauV* # XSL (SB based on old estimates), HD 144921
+X0075V    4369  4.62 -0.55 100.0            HighPM* # SB
+X0448V    4189  1.17 -0.97 100.0               RGB* # XSL
+X0163V    4191  1.63 -0.31 100.0               Star # XSL
+X0421V    4192  1.25 -0.11 100.0               Star # XSL
+X0615V    4192  2.54  0.36 100.0               RGB* # XSL
+X0181V    4195  2.08 -0.03 100.0               Star # XSL
+X0616V    4218  1.62 -0.86 100.0               RGB* # XSL well represents the available estimates (m0954V, AE: 4309.29 1.76 -0.59)
+X0085V    4239  1.50 -0.75 100.0               Star # XSL (better logg than SB)
+X0618V    4242  1.07 -1.23 100.0               RGB* # M5_IV-19 XSL, similar to Sharma parameters: m0930V  4251.0    0.90  -1.290
+X0002V    4250  2.55  0.45 100.0               Star # TiO2: XSL better Teff
+X0156V    4263  2.01 -0.10 100.0               Star # XSL
+X0010V    4270  0.49 -0.51 100.0              RedSG # XSL
+X0203V    4276  1.83  0.02 100.0               Star # XSL
+X0006V    4286  1.66 -0.71 100.0               RGB* # Jonsson 2020AJ....160..120J
+X0326V    4289  2.59  0.33 100.0               Star # XSL
+X0064V    4300  2.38 -0.13 100.0               RGB* # XSL
+X0624V    4310  0.64 -2.06 100.0               Star # XSL
+X0065V    4370  1.60 -0.85 100.0               RGB* # SB
+X0627V    4326  1.79 -0.90 100.0               RGB* # XSL, AE: 4353 1.95 -0.54 (m0951V)
+X0218V    4341  2.01 -0.26 100.0            HighPM* # SB
+X0628V    4327  2.69  0.30 100.0               Star # XSL, average of two values 
+X0009V    4363  0.58 -0.64 100.0         RedSG_Cand # XSL
+X0136V    4359  0.90 -2.08 100.0           ChemPec* # SB
+X0461V    4381  1.12 -0.20 100.0       LongPeriodV* # XSL
+X0308V    4385  2.15 -0.74 100.0            HighPM* # XSL
+X0425V    4391  1.05 -0.58 100.0         RedSG_Cand # XSL
+X0228V    4417  1.02 -1.92 100.0           ChemPec* # SB
+X0182V    4399  2.07 -0.27 100.0               Star # XSL 
+X0361V    4428  2.81  0.12 100.0            HighPM* # XSL
+X0631V    4396  0.95 -1.83 100.0               RGB* # Meszaros2020MNRAS.492.1641M
+X0272V    4445  1.00 -1.65 100.0            HighPM* # XSL
+X0391V    4445  1.03 -1.75 100.0               Star # XSL
+X0131V    4452  2.27 -0.26 100.0            HighPM* # XSL
+X0327V    4471  2.20  0.11 100.0            HighPM* # SB (XSL: logg is a bit too high)
+X0236V    4460  0.95 -2.34  10.0                SB* # Spec. Bin. (DECREASED S/N) 
+X0057V    4467  1.65 -1.20 100.0               RGB* # XSL (SB Teff too low) 
+X0195V    4476  2.04 -0.59  10.0                 C* # XSL (very low TEff), DECREASED S/N
+X0061V    4478  2.53  0.33 100.0               RGB* # XSL
+X0428V    4492  4.56 -1.57 100.0            HighPM* # XSL
+X0137V    4498  3.10  0.17 100.0            HighPM* # XSL (SB Teff too high)
+X0165V    4501  1.77 -0.03 100.0               Star # XSL
+X0409V    4501  4.62 -1.14 100.0            HighPM* # XSL (SB logg a bit too low)
+X0394V    4504  1.12 -1.81  10.0                SB* # Spec. Bin. (DECREASED S/N)  
+X0632V    4520  1.47 -1.18 100.0           ChemPec* # XSL
+X0633V    4520  1.48 -0.88 100.0               AGB* # XSL, m0961V AE: 4326 0.89 -0.68
+X0132V    4590  1.34  0.19 100.0              RedSG # SB (based on Luck 2014: 4626 1.50 0.26) 
+X0003V    4528  2.55 -0.31 100.0               RGB* # XSL 
+X0634V    4545  2.59  0.23 100.0               Star # XSL
+X0635V    4555  2.05 -0.86 100.0               RGB* # XSL  m0959V, AE: 4292 1.73 -0.92
+X0174V    4571  2.64 -0.03 100.0               Star # XSL
+X0094V    4591  2.25 -0.08 100.0               Star # XSL, ng065V: 4596.  2.26 -0.04
+X0390V    4563  1.48 -1.69 100.0           ChemPec* # SB 
+X0637V    4611  1.64 -0.85 100.0               AGB* # XSL  m0957V, AE: 4108 1.32 -1.11
+X0398V    4614  2.74 -0.10 100.0               Star # XSL
+X0042V    4694  2.65 -0.02 100.0               Star # PERDELWITZ2024A&A...683A.125P
+X0004V    4631  2.52 -0.09 100.0               RGB* # XSL
+X0095V    4631  2.71 -0.19 100.0                 ** # XSL
+X0184V    4634  2.25  0.00 100.0               Star # XSL
+X0033V    4638  1.23 -1.65  10.0                SB* # XSL, Spec. Bin. (DECREASED S/N)  
+X0157V    4645  1.22  0.13 100.0              RedSG # SB
+X0252V    4638  4.69 -0.01 100.0            HighPM* # Luck2017AJ....153...21L
+X0638V    4695  1.55 -2.37 100.0               RGB* # SB
+X0306V    4640  2.04 -0.24 100.0               Star # XSL 
+X0147V    4644  1.72 -1.20 100.0            HighPM* # XSL, ng129V: 4657. 2.31 -1.09 
+X0639V    4644  2.34 -0.31 100.0               Star # XSL
+X0183V    4663  2.50 -0.11  10.0                SB* # XSL, Spec. Bin. (DECREASED S/N)  
+X0020V    4599  1.36 -2.39 100.0           ChemPec* # SB (XSL: logg a bit low)
+X0066V    4690  2.47 -0.82 100.0               RGB* # XSL, m0966V (AE: 4742 2.23 -0.34, F too low compared to others)
+X0106V    4870  4.57 -0.13 100.0            HighPM* # SB
+X0429V    4520  4.63 -1.61 100.0            HighPM* # SB
+X0150V    4709  2.47 -0.31 100.0            HighPM* # XSL
+X0022V    4716  1.56 -1.77 100.0           ChemPec* # XSL
+X0342V    4653  1.31 -2.23  10.0                SB* # Jonsson2020AJ....160..120J, Spec. Bin. (DECREASED S/N)  
+X0001V    4723  2.03 -0.04 100.0             RCrBV* # XSL
+X0640V    4729  2.31 -0.88 100.0               RGB* # XSL, m0949V (AE: 5113 3.10 -0.03, T too high)
+X0129V    4737  2.64  0.07 100.0               Star # XSL
+X0302V    4740  2.51 -0.08 100.0               Star # XSL
+X0013V    4747  1.43 -1.27 100.0           ChemPec* # XSL
+X0103V    4753  2.76  0.20 100.0               Star # XSL
+X0058V    4773  1.48 -1.21 100.0               AGB* # SB
+X0167V    4758  1.76  0.02 100.0               Star # XSL (AE: Teff 4758, Fe/H=0.02) 
+X0642V    4759  2.93 -0.46 100.0               Star # XSL  
+X0388V    4867  4.59  0.32 100.0            HighPM* # SB
+X0643V    4773  2.48 -0.84 100.0               RGB* # XSL (m0948V, AE: 4807 2.52 -0.47) 
+X0198V    4778  2.63  0.14 100.0               Star # XSL
+X0320V    4781  2.36 -0.01 100.0               Star # XSL
+X0193V    4792  2.64  0.02 100.0               Star # XSL
+X0430V    4801  4.60 -1.79 100.0            HighPM* # XSL
+X0116V    4859  2.84  0.11 100.0            HighPM* # SB
+X0152V    4918  3.61  0.17 100.0            HighPM* # SB 
+X0364V    4818  4.63  0.07 100.0            HighPM* # XSL (SB logg a bit low)
+X0054V    4825  1.86 -0.24 100.0               Star # XSL (SB from 2008 paper)
+X0178V    5021  3.32  0.11 100.0            HighPM* # SB 
+X0336V    4846  2.13  0.09 100.0               Star # XSL 
+X0366V    5084  2.18 -1.75  10.0                SB* # KARINKUZHI2021A&A...645A..61K, Spec. Bin. (DECREASED S/N)  
+X0100V    4899  2.21 -1.61 100.0            HighPM* # SB
+X0005V    4879  1.54 -1.55 100.0               RGB* # XSL 
+X0363V    4880  2.74  0.05 100.0            HighPM* # XSL
+X0281V    4912  4.51  0.00  10.0                SB* # SB, Spec. Bin. (DECREASED S/N) 
+X0173V    4928  2.43 -0.69 100.0            HighPM* # XSL
+X0288V    4928  2.61  0.00 100.0               Star # XSL
+X0312V    4931  1.69 -0.05 100.0               Star # XSL
+X0024V    4792  1.86 -2.27 100.0           ChemPec* # SB 
+X0346V    4962  1.82 -0.04  10.0                SB* # XSL, Spec. Bin. (DECREASED S/N) 
+X0332V    4977  2.74  0.08 100.0               Star # XSL
+X0648V    4996  2.13 -0.94 100.0               RGB* # XSL, m0962V (AE: 4923.39 1.79 -1.00, log g a bit too low) 
+X0382V    5006  2.97  0.16 100.0               Star # XSL
+X0325V    5026  2.54 -0.08 100.0               Star # XSL
+X0240V    5043  2.66 -1.23 100.0               RGB* # SB (very similar to XSL) 
+X0176V    5040  2.64 -0.09 100.0               Star # XSL
+X0243V    5062  1.95 -1.06 100.0            HighPM* # XSL (ng219V, PARAM_NGSL: 4972.  2.53 -1.08)
+X0162V    5063  2.45 -0.09 100.0               Star # XSL
+X0014V    5084  1.99 -1.87 100.0           ChemPec* # XSL
+X0403V    5092  2.74 -2.69 100.0           ChemPec* # XSL
+X0145V    5125  2.27 -0.01 100.0               Star # XSL
+X0180V    5127  2.38  0.03 100.0               Star # XSL
+X0352V    5127  2.80 -0.26 100.0               Star # XSL
+X0188V    5132  2.59 -0.04 100.0                 ** # XSL
+X0045V    5163  1.96 -1.54 100.0           ChemPec* # XSL (ng019V, PARAM_NGSL: 5075.  2.86 -1.44)
+X0055V    5200  1.00 -1.77 100.0           Type2Cep # XSL (large scatter in the lit.)
+X0353V    5206  2.55 -0.07 100.0               Star # XSL (SB logg a bit low)
+X0316V    5268  0.95  0.22 100.0               Star # XSL (ng080V, PARAM_NGSL: 5164.  2.83 -1.15)
+X0303V    5274  1.39 -1.36 100.0            RVTauV* # XSL
+X0168V    5280  2.20  0.01 100.0               Star # XSL
+X0375V    5302  4.57  0.13 100.0            HighPM* # XSL
+X0019V    5369  2.57 -1.58 100.0           ChemPec* # XSL (ng001V  5013.  2.98 -1.99, Teff too low)
+X0238V    5431  4.52 -0.58 100.0            HighPM* # SB (ng215V  5335.  4.23 -0.59)
+X0110V    5389  2.53 -1.06 100.0            HighPM* # XSL (ng080V  5164.  2.83 -1.15, Teff too low)
+X0144V    5316  1.72 -0.01 100.0               Star # Luck2014AJ....147..137L
+X0223V    5457  4.40  0.30 100.0            HighPM* # SB (XSL very similar to SB) 
+X0050V    5427  0.89 -0.30 100.0           YellowSG # XSL (clearly better than SB)
+X0407V    5435  3.24 -2.65 100.0           ChemPec* ******************************************
+X0290V    5706  4.43 -1.21 100.0                 ** 
+X0360V    5708  3.74  0.19 100.0               Star 
+X0405V    5729  3.59 -2.61 100.0           ChemPec* 
+X0032V    5763  4.09 -1.97 100.0            HighPM* 
+X0171V    5799  1.18  0.06 100.0               Star 
+X0081V    5805  4.20 -1.39 100.0            HighPM* 
+X0286V    5811  3.84 -1.53 100.0            HighPM* 
+X0082V    5846  4.27 -1.51 100.0            HighPM* 
+X0334V    5857  1.07  0.18 100.0       ClassicalCep 
+X0392V    5867  3.91  0.15 100.0               Star 
+X0386V    5877  4.15 -0.18 100.0            HighPM* 
+X0344V    5878  3.20  0.22 100.0               Star 
+X0069V    5884  1.09  0.10 100.0               Star 
+X0186V    5902  4.01 -0.90 100.0            HighPM* 
+X0036V    5933  3.81 -2.43 100.0           ChemPec* 
+X0339V    5935  3.15 -1.13 100.0         HorBranch* 
+X0335V    5940  1.17  0.25 100.0       ClassicalCep 
+X0212V    5956  3.98  0.02 100.0            HighPM* 
+X0017V    6000  4.00 -2.09 100.0                 **  m0596V (AE: 6276 4.48 -1.96)  
+X0359V    6004  4.04 -1.04 100.0            HighPM* # (NO MILES, AE: 6118 3.95 -0.77) 
+X0408V    6030  3.84 -2.42 100.0           ChemPec* 
+X0113V    6031  4.32 -0.15 100.0            HighPM* 
+X0242V    6033  0.63 -0.65 100.0          post-AGB* 
+X0078V    6062  4.17 -1.54 100.0           ChemPec* 
+X0083V    6074  4.14 -1.34 100.0            HighPM* 
+X0074V    6095  4.15 -1.42 100.0            HighPM* 
+X0080V    6129  4.16 -1.55 100.0           ChemPec* 
+X0079V    6132  4.08 -1.69 100.0            HighPM* 
+X0091V    6153  4.25 -0.14 100.0            HighPM* 
+X0076V    6161  4.25 -1.46 100.0            HighPM* 
+X0404V    6174  3.97 -2.18 100.0               Star 
+X0026V    6186  4.15 -1.48  10.0                SB* # Spec. Bin. (DECREASED S/N)  
+X0041V    6189  4.09 -1.86 100.0           ChemPec* 
+X0357V    6200  4.15 -0.15 100.0            HighPM* 
+X0406V    6217  3.95 -2.29 100.0               Star 
+X0282V    6237  3.41  0.08 100.0               RGB* 
+X0329V    6265  3.99  0.26 100.0               Star 
+X0169V    6308  4.29 -0.32 100.0            HighPM* 
+X0340V    6465  4.06 -0.03 100.0               Star 
+X0481V    6492  2.42  0.27 100.0       ClassicalCep 
+X0164V    6496  1.33  0.08 100.0               Star 
+X0159V    6502  4.28 -0.09 100.0               Star 
+X0146V    6519  3.79  0.15 100.0               Star 
+X0299V    6521  4.22 -0.13 100.0                 ** 
+X0371V    6568  4.09 -0.46 100.0            HighPM* 
+X0114V    6582  4.22 -0.45 100.0               Star 
+X0269V    6618  1.35  0.21 100.0       ClassicalCep 
+X0349V    6672  3.89  0.27 100.0               Star 
+X0248V    6687  2.31 -1.33 100.0          post-AGB* 
+X0399V    6737  0.78  0.07 100.0               Star 
+X0321V    6743  2.99 -0.16 100.0      MainSeq*_Cand 
+X0291V    6792  3.86  0.15 100.0               Star 
+X0141V    6819  3.82  0.18 100.0                 ** 
+X0333V    6834  3.70  0.42 100.0               Star 
+X0148V    6956  3.69  0.49 100.0               Star 
+X0338V    7004  3.85 -0.09 100.0               Star 
+X0222V    7018  4.04  0.18 100.0         gammaDorV* 
+X0341V    7023  4.13  0.09 100.0               Star 
+X0139V    7055  4.02  0.00 100.0               Star 
+X0313V    7096  4.02 -0.02 100.0               Star 
+X0337V    7123  3.83  0.10 100.0               Star 
+X0166V    7216  3.95 -0.12 100.0               Star 
+X0160V    7229  3.66  0.16 100.0               Star 
+X0356V    7246  3.89  0.02 100.0               Star 
+X0372V    7257  3.70  0.22 100.0             PulsV* 
+X0350V    7318  4.00  0.09 100.0               Star 
+X0128V    7360  4.07  0.07 100.0            HighPM* 
+X0400V    7379  0.67  0.81 100.0           YellowSG 
+X0051V    7515  1.51 -0.89 100.0         Supergiant 
+X0310V    7610  3.44  0.56 100.0               Star 
+X0257V    7617  3.38  0.38 100.0            HighPM* 
+X0323V    7697  3.91  0.08 100.0           delSctV* 
+X0197V    7725  3.48 -0.20 100.0               Star 
+X0189V    7799  3.82  0.16 100.0             PulsV* 
+X0108V    7830  2.38 -1.47 100.0            RRLyrae 
+X0324V    7862  3.01 -0.27 100.0               Star 
+X0191V    7931  2.61 -0.19 100.0               Star 
+X0153V    7935  4.20 -0.71 100.0               Star 
+X0373V    7939  3.66 -0.01 100.0               Star 
+X0322V    7971  3.93  0.04 100.0                 ** 
+X0140V    8042  3.81  0.03 100.0               Star 
+X0317V    8052  3.46  0.36 100.0               Star 
+X0307V    8070  3.95  0.06 100.0           delSctV* 
+X0270V    8077  3.93  0.42 100.0                 ** 
+X0355V    8143  3.60  0.08 100.0               Star 
+X0365V    8208  3.85  0.03 100.0            HighPM* 
+X0111V    8248  3.42  0.25 100.0          Variable* 
+X0298V    8296  3.94  0.04 100.0               Star 
+X0296V    8297  3.62 -0.04 100.0                 ** 
+X0301V    8301  3.48 -0.04 100.0               Star 
+X0315V    8400  3.45 -0.26 100.0               Star 
+X0285V    8568  4.39 -0.03 100.0               Star 
+X0314V    8752  3.31  0.06 100.0               Star 
+X0230V    8759  3.16 -1.67 100.0            HighPM* 
+X0318V    8841  4.06 -0.23 100.0               Star 
+X0249V    8843  3.23 -1.65 100.0            HighPM* 
+X0319V    9262  3.65 -0.40 100.0               Star 
+X0294V    9351  4.52 -0.29 100.0               Star 
+X0199V    9569  3.67  0.44 100.0          alf2CVnV* 
+X0278V   10044  3.82 -0.26 100.0               Star 
+X0300V   10079  4.09 -0.47 100.0               Star 
+X0354V   10541  3.77 -0.02 100.0               Star 
+X0292V   10885  3.67  0.73 100.0           EllipVar 
+X0289V   12289  3.93  0.20 100.0               Star 
+X0134V   12460  4.21  0.59 100.0          alf2CVnV* 
+X0358V   13265  3.87  0.23 100.0               Star 
+X0395V   14397  3.69  0.27 100.0          Variable* 
+X0304V   15500  3.63  0.29 100.0                Be* 
+X0142V   15760  4.18 -0.07 100.0               Star 
+X0154V   16006  4.16 -0.11 100.0               Star 
+X0219V   19543  3.39 -0.02 100.0        bCepV*_Cand 
+X0046V   19879  3.46 -0.03 100.0               Star 
+X0151V   20129  3.59 -0.04 100.0                 ** 
+X0469V   36310  0.54 -0.21 100.0       LongPeriodV* 

@@ -1,0 +1,8 @@
+Reference,Year,Teff_K,logg_dex,[Fe/H],Method,Source_ref
+Moravveji et al. (MESA grid) / ResearchGate listing,2013? (ResearchGate PDF),3280 ± 87,—,assumed near-solar,Evolutionary modelling (MESA) using photometry & system constraints,turn0search0
+Wikipedia / compiled (entries from various papers),(various),3155 – 3365 (min–max),—,—,"Compiled observational summaries (interferometry, photometry)",turn0search2
+Röck et al. 2015 (MNRAS) - library compilation,2015,~3236 K (library typical values),(varies),(varies; some library mismatches possible),Literature compilation / comparison to MILES & IRTF,turn0search8
+Lee et al. 2023 (A&A) - LPV radial velocities,2023,not explicitly re-derived; flagged modelling limits for Teff < 3500 K,—,—,Radial-velocity study; notes modelling caveats for cool M giants,turn1search0
+"Huang, Wallerstein & Stone (Paschen-line catalogue)",2012 (catalogue),not tabulated; spectral type M5 Ib-II noted,—,—,Paschen-line profiles / spectral atlas,turn1search2
+Stellafane / assorted star facts pages,various (online),~3275 K (estimated),—,—,Online compilations / popular summaries (use cautiously),turn0search21
+Sky-Map / starview / VizieR links,various,range reported in literature catalogs,—,—,"Catalog entries, compiled measurements",turn1search1
