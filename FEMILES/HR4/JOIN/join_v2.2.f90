@@ -862,15 +862,37 @@ if(i==1) then
    call polint(s11(k1), s22(k1), 2, s1(i), sf(i), dy)
    itonto=2
    call interp_sgl(s11, s22, 1, s1(i), sf(i), dy)
+
 else if(i==2 .or. k1 == 1) then
    call polint(s11(k1), s22(k1), 3, s1(i), sf(i), dy)
+   itonto=3
+else if(i==3) then
+   call polint(s11(k1), s22(k1), 3, s1(i), sf(i), dy)
+   itonto=3
+else if(i==4) then
+   call polint(s11(k1), s22(k1), 3, s1(i), sf(i), dy)
+   itonto=3
+else if(i==5) then
+   call polint(s11(k1), s22(k1), 3, s1(i), sf(i), dy)
+   itonto=3
+
+else if(i == (nnew-4) ) then
+   call polint(s11(k1-1),s22(k1-1),3,s1(i),sf(i),dy)
+   itonto=3
+else if(i == (nnew-3) ) then
+   call polint(s11(k1-1),s22(k1-1),3,s1(i),sf(i),dy)
+   itonto=3
+else if(i == (nnew-2) ) then
+   call polint(s11(k1-1),s22(k1-1),3,s1(i),sf(i),dy)
    itonto=3
 else if(i == (nnew-1) ) then
    call polint(s11(k1-1),s22(k1-1),3,s1(i),sf(i),dy)
    itonto=3
+
 else if(i == nnew) then
    call polint(s11(k1-1),s22(k1-1),2,s1(i),sf(i),dy)
    itonto=2
+
 else
   call polint(s11(k1-1),s22(k1-1),4,s1(i),sf(i),dy)
    itonto=4
@@ -1013,7 +1035,6 @@ REAL(KIND=DP), INTENT(OUT) :: error         ! Error flag: 0 -- No error
 INTEGER :: i                     ! Index variable
 INTEGER :: ibase                 ! Index for interpolation.
 REAL(KIND=dp) :: slope                    ! Slope for interpolation.
-
 
 ! Assume that the input data set is in ascending order of x.
 ! See if the measurement position x0 is smaller or larger
