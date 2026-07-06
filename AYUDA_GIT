@@ -1,0 +1,88 @@
+Guía de Git para varios colaboradores 
+
+
+Paso 0: Crear cuenta GitHub y hacerlo colaborador
+
+
+Paso 1: Instalar Git 
+
+Abre la terminal y ejecuta el siguiente comando. 
+
+git --version (si no está: sudo apt-get install git-all)
+
+
+Paso 2: Configurar su identidad y optimizar la red
+
+Para evitar que la descarga se corte por el gran peso del repositorio (GB), ejecuta estos comandos en la terminal:
+
+# Configura su nombre y correo (obligatorio para hacer commits)
+
+git config --global user.name "Su Nombre"
+
+git config --global user.email "su-correo@ejemplo.com"
+
+# Aumenta el búfer para descargas masivas sin interrupciones
+
+git config --global http.postBuffer 1572864000
+
+
+Paso 3: Descargar el repositorio completo
+
+Para descargar el proyecto entero de golpe a su ordenador:
+
+git clone https://github.com/Pablo-IAC/The-MILES-Project
+
+cd The-MILES-Project
+
+
+Paso 4: Flujo de Trabajo Diario (Rama)
+
+1. Crear su propia rama (Solo la primera vez)
+
+git checkout -b rama-vazdekis (como colaborador de The-MILES-Project)
+
+2. Guardar y subir sus cambios a GitHub. Cada vez que termine de trabajar y quiera subir sus avances:
+
+git add .
+
+git commit -m "Explicación breve de los cambios realizados"
+
+git push origin rama-colaborador
+
+
+Otras instrucciones de interés 
+
+¿Cómo se descargan otros cambios?
+
+Si otra persona ha subido algo nuevo a la rama principal (main) y se necesita tenerlo en su rama de trabajo, debe ejecutar:
+
+git checkout rama-colaborador  # Asegurarse de estar en su rama
+
+git pull origin main           # Trae y fusiona tus cambios de main a su rama
+
+
+¿Cómo ver el historial de cambios si el proyecto es enorme?
+
+Para ver qué se ha estado haciendo sin saturar la terminal con miles de líneas de historial:
+
+git log --oneline -n 10
+
+
+¿Cómo hacer una rama la principal (cuando el trabajo esté bien)?. Te cambias a main, traes sus cambios y los fusionas:
+
+git checkout main 
+
+git pull origin main # Te aseguras de estar al día 
+
+git merge rama-colaborador # Fusionas su trabajo en tu rama 
+
+git push origin main # Subes el resultado final a GitHub
+
+
+* En caso de que lo descarguemos como .zip
+
+git remote add origin https://github.com/Pablo-IAC/The-MILES-Project
+
+GitHub denegará el acceso por seguridad, a menos que le hayas dado permisos de colaborador.
+
+Tkn: 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
